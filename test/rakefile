@@ -1,7 +1,6 @@
 require 'rake'
 
 task :test do
-  #run_rvm_command "gemset2", "script.rb  > script.log 2>&1 &"
   run_rvm_command "gemset2", "script.rb"
 end
 
