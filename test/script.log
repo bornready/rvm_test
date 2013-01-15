@@ -1,0 +1,2 @@
+/home/user/dev/myaccount/test/gemset2/script.rb:2:in `require': no such file to load -- ramaze (LoadError)
+	from /home/user/dev/myaccount/test/gemset2/script.rb:2:in `<main>'

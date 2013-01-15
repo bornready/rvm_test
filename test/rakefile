@@ -1,0 +1,10 @@
+require 'rake'
+
+task :test do
+  run_rvm_command "gemset2", "script.rb  > script.log 2>&1 &"
+end
+
+def run_rvm_command dir, command
+  ENV["rvm_trust_rvmrcs_flag"]="1"
+  system "\"$HOME/.rvm/bin/rvm\" in \"#{dir}\" do #{command}"
+end

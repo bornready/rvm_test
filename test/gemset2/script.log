@@ -1,0 +1,1 @@
+`rvm do script.rb` was removed, use `rvm 1.9.2,1.9.3 do script.rb` or `rvm all do script.rb` instead.
